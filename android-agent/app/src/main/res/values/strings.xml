@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LangChain4j Agent</string>
+    <string name="action_settings">设置</string>
+    <string name="action_clear">清空</string>
+    <string name="send">发送</string>
+    <string name="input_hint">输入消息...</string>
+    <string name="device_info">设备信息</string>
+    <string name="adjust_volume">调整音量</string>
+    <string name="battery_level">电池电量</string>
+</resources>
