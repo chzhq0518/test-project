@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "example": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "env": {
+        "LOG_LEVEL": "INFO"
+      },
+      "description": "示例 MCP Server"
+    },
+    "weather": {
+      "command": "python",
+      "args": ["mcp_server.py"],
+      "env": {
+        "SERVER_NAME": "weather-server",
+        "API_KEY": "your_api_key_here"
+      },
+      "description": "天气服务 MCP Server"
+    }
+  },
+  "settings": {
+    "timeout": 30,
+    "protocolVersion": "2024-11-05",
+    "clientInfo": {
+      "name": "mcp-python-client",
+      "version": "1.0.0"
+    }
+  }
+}
