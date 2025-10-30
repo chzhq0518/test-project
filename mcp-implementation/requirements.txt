@@ -1,0 +1,10 @@
+# MCP Implementation Requirements
+# Python 3.8+
+
+# 无需额外依赖，使用 Python 标准库即可
+# 标准库包含:
+# - json: JSON 序列化
+# - subprocess: 进程管理
+# - threading: 多线程
+# - queue: 线程安全队列
+# - logging: 日志
